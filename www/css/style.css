@@ -1,0 +1,539 @@
+/* ===============Global section================= */
+html {
+  scroll-behavior: smooth;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+/* ===============Header Section================= */
+/* Nav section */
+#navbar-brand {
+  color: #1b91ed;
+}
+.navbar {
+  background: #7037ff85;
+  font-family: roboto;
+}
+#navbar-bootstrap-override .nav-link {
+  color: white;
+  transition: 0.3s ease;
+  font-family: roboto-bold;
+}
+#navbar-bootstrap-override .nav-link:hover {
+  color: #1b91ed;
+}
+.dropdown-menu {
+  background: #7037ff85;
+}
+#dropdown-bootstrap-override a {
+  color: white;
+  transition: 0.3s ease;
+}
+#dropdown-bootstrap-override a:hover {
+  background: #6427ffc0;
+}
+/* hero section */
+.hero-wrapper {
+  background: #7632ff;
+  padding: 10rem 0rem;
+  height: fit-content;
+  font-family: roboto;
+}
+.download-btn,
+.register-btn {
+  padding: 0.5rem 3rem;
+  border: none;
+  border-radius: 2rem;
+  margin: 2rem 1rem;
+}
+.download-btn {
+  background: linear-gradient(90deg, #2dc2bd, #6bdaab);
+  color: white;
+  transition: 0.3s ease;
+}
+.download-btn:hover {
+  box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.3);
+}
+.register-btn {
+  background: white;
+  color: #333;
+  transition: 0.3s ease;
+}
+.register-btn:hover {
+  box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.3);
+}
+.hero-wrapper {
+  position: relative;
+}
+.wave-img {
+  position: absolute;
+  bottom: 0;
+}
+/* ======================ico sale section==================== */
+.ico-sale-wrapper {
+  background: #f6f6fc;
+  padding: 5rem 0rem;
+  font-family: roboto;
+}
+#timer-number {
+  color: #7954ff;
+  text-align: center;
+}
+#timer-divider {
+  color: #cabbff;
+}
+
+#timer-text {
+  font-size: 1.2rem;
+  color: rgb(122, 122, 122);
+  text-align: center;
+}
+.ico-sale-middle-content {
+  background: white;
+  border-radius: 1rem;
+}
+/* ico progress bar section */
+.ico-progress-wrapper {
+  position: relative;
+  padding: 4rem 0rem;
+}
+.ico-progress {
+  background: #f5f3fa;
+  height: 2rem;
+  width: 100%;
+  border-radius: 3rem;
+}
+/* ===================== */
+.first-progress {
+  width: 25%;
+  background: #a994fc;
+  height: 100%;
+}
+.progress-text-one {
+  position: absolute;
+  left: 25%;
+  top: 13%;
+  transform: translate(-100%);
+}
+.progress-text-four {
+  position: absolute;
+  left: 0%;
+  transform: translate(0%);
+}
+/* ===================== */
+.second-progress {
+  width: 25%;
+  background: #947afc;
+  height: 100%;
+}
+.progress-text-two {
+  position: absolute;
+  left: 50%;
+  top: 13%;
+  transform: translateX(-100%);
+}
+.progress-text-five {
+  position: absolute;
+  left: 75%;
+  transform: translate(-100%);
+}
+.progress-text-five::after {
+  content: " ▲";
+  color: #795bfb;
+}
+/* ===================== */
+.third-progress {
+  width: 25%;
+  background: #795bfb;
+  height: 100%;
+}
+.progress-text-three {
+  position: absolute;
+  left: 100%;
+  top: 13%;
+  transform: translateX(-100%);
+}
+
+.progress-text-six {
+  position: absolute;
+  left: 100%;
+  transform: translate(-100%);
+}
+.buy-token-now {
+  margin-top: 5rem;
+  text-align: center;
+}
+.buy-token-now-btn {
+  background: #795bfb;
+  color: white;
+  border: none;
+  padding: 1rem 3rem;
+  transition: 0.3s ease;
+}
+.buy-token-now-btn:hover {
+  box-shadow: 0px 0px 40px #785bfb63;
+}
+/* =====accept currency section===== */
+.accept-currency-img {
+  padding: 2rem;
+  background: white;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+/* =================Krylab token section=================== */
+.krayplab-token-wrapper {
+  padding: 10rem 0rem;
+}
+.market-cap {
+  padding: 3rem 2rem;
+  margin: 1rem;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.1);
+}
+.market-cap-one {
+  transform: translateY(20%);
+}
+.social-trade {
+  color: #7849ff;
+}
+.d-trading-fees {
+  color: #0dcaf0;
+}
+/*-------------Road map section--------------*/
+.roadmap-wrapper {
+  background: #7954ff;
+  height: fit-content;
+  padding-top: 5rem;
+  padding-bottom: 15rem;
+  overflow: hidden;
+  position: relative;
+  isolation: isolate;
+}
+.raodmap-circle-one {
+  position: absolute;
+  z-index: -1;
+  top: -5%;
+  left: -10%;
+  height: 70rem;
+  width: 70rem;
+  border-radius: 50%;
+  background: #714aff;
+}
+.raodmap-circle-two {
+  position: absolute;
+  z-index: -1;
+  top: -30%;
+  right: 0%;
+  height: 70rem;
+  width: 70rem;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #7743ff, #7843ff4d);
+}
+/* ===================roadmap-first-content======================== */
+.roadmap-text-one {
+  color: white;
+  background: #7954ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 20%;
+  height: 100%;
+  padding: 3rem 3rem;
+  border-radius: 5rem;
+  position: relative;
+}
+.roadmap-text-one::after {
+  position: absolute;
+  top: 100%;
+  left: 55%;
+  transform: translate(-100%, -55%) rotate(45deg);
+  content: "";
+  height: 1rem;
+  width: 1rem;
+  background: #7954ff;
+}
+/* ====================*/
+
+.roadmap-text-three {
+  color: #333;
+  background: #f7f7f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 20%;
+  padding: 3rem 3rem;
+  border-radius: 5rem;
+  position: relative;
+}
+.roadmap-text-three::after {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-100%, -50%) rotate(45deg);
+  content: "";
+  height: 1rem;
+  width: 1rem;
+  background: #f7f7f7;
+}
+/* ====================*/
+
+.roadmap-text-five {
+  color: white;
+  background: #7954ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 20%;
+  padding: 3rem 3rem;
+  border-radius: 5rem;
+  position: relative;
+}
+.roadmap-text-five::after {
+  position: absolute;
+  top: 100%;
+  left: 55%;
+  transform: translate(-100%, -55%) rotate(45deg);
+  content: "";
+  height: 1rem;
+  width: 1rem;
+  background: #7954ff;
+}
+/* ================roadmap-middle-content==================== */
+.roadmap-middle-content {
+  width: 100%;
+  height: 0.2rem;
+  background: #ffffff;
+  margin: 2rem 0rem;
+}
+
+.roadmap-circles {
+  height: 2rem;
+  width: 2rem;
+  border: 0.2rem solid #6f4cff;
+  border-radius: 50%;
+  background: white;
+}
+/* ================roadmap-last-content================== */
+.roadmap-last-pill {
+  color: white;
+  background: #7954ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 20%;
+  height: 100%;
+  padding: 3rem 3rem;
+  border-radius: 5rem;
+  position: relative;
+}
+.roadmap-last-pill::before {
+  position: absolute;
+  bottom: 83%;
+  transform: translateY(-83%) rotate(45deg);
+  content: "";
+  height: 1rem;
+  width: 1rem;
+  background: #7954ff;
+}
+.small-screen-pill {
+  padding: 4rem 2rem;
+  background: #5121ff4f;
+  border-radius: 5rem;
+  color: white;
+}
+/* ==============Why Kryplab section============== */
+.why-krylab-wrapper {
+  padding: 10rem 0rem;
+}
+.why-kry i {
+  color: #4bc3c3;
+  font-size: 2rem;
+}
+.why-kry {
+  margin: 2rem 0rem;
+}
+/* ================Truly Decentralized Exchange===================== */
+.tde-wrapper {
+  background: #f6f6fc;
+  padding: 2rem 0rem;
+  height: fit-content;
+}
+.tde-title {
+  color: #7e62fd;
+}
+.get-notified-btn {
+  background: #7e62fd;
+  margin-top: 3rem;
+}
+.ste-title {
+  color: #4bc3c3;
+}
+/* ===============great team section=============================== */
+.great-team-wrapper {
+  background-color: white;
+  padding: 5rem 0rem;
+}
+.great-team-wrapper img {
+  margin-bottom: 2rem;
+}
+
+.team-icons i {
+  margin: 2rem 1rem;
+  color: gray;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.carousel-indicators li {
+  background: #704cff94;
+  margin: 0rem 0.5rem;
+  height: 1rem;
+  width: 1rem;
+  border: 4px solid #704cff;
+  border-radius: 50%;
+  transform: translateY(3rem);
+}
+.carousel-indicators .active{
+  background: #704cff;
+  height: 1rem;
+  width: 1rem;
+  border: 4px solid #704cff;
+  border-radius: 50%;
+}
+.adv-board-wrapper {
+  padding: 10rem 0rem;
+  text-align: center;
+}
+.adv-img {
+  border-radius: 50%;
+  width: 50%;
+  opacity: 30%;
+  margin: 5rem 0rem;
+}
+#adv-img-three {
+  opacity: 100%;
+}
+/* ==================wallet app section================== */
+.wallet-app-wrapper {
+  padding: 10rem 0rem;
+  background: linear-gradient(45deg, #616cff, #9236ff);
+  height: 100%;
+}
+.wallet-app-wrapper {
+  position: relative;
+}
+.wallet-app-img {
+  position: absolute;
+  bottom: 0;
+}
+/* ===================iconx section=================== */
+.iconx-wrapper {
+  padding: 10rem 0rem;
+  background: #f6f6fc;
+}
+.iconx-icons {
+  padding: 2rem;
+  margin: 1rem;
+  text-align: center;
+  border-radius: 1rem;
+  font-size: 2rem;
+  background: white;
+  transition: 0.3s ease;
+}
+.iconx-icons:hover {
+  background: linear-gradient(45deg, #28c0be, #6cdbaa);
+  color: white;
+}
+/* ==================media section===================== */
+.media-wrapper {
+  background: #3c424e;
+  padding: 10rem 0rem;
+}
+/* =================faq section======================= */
+.faq-wrapper {
+  padding: 10rem 0rem;
+}
+#faq-accordion {
+  background: #f6f6fc;
+}
+/* ===============contact section=================== */
+.contact-wrapper {
+  padding: 10rem 0rem;
+  position: relative;
+  z-index: 1;
+}
+.contact-wrapper-bellow {
+  position: absolute;
+  top: 0;
+  height: 10rem;
+  width: 100%;
+  background: red;
+  z-index: 2;
+}
+#telegram {
+  color: #0f94d6;
+}
+.contact {
+  padding: 5rem 0rem;
+  margin-top: 10rem;
+  box-shadow: 0px 0px 20px rgb(177, 177, 177);
+  border-radius: 0.3rem;
+  background: white;
+  position: relative;
+  z-index: 1;
+}
+
+.subscribe-wrapper {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  margin-top: -30rem;
+  width: 100%;
+  padding: 40rem 0rem 5rem 0rem;
+
+  background: linear-gradient(90deg, #616cff, #8c3cff);
+}
+.submit-btn {
+  padding: 1rem 2rem;
+  background: #7e62fd;
+  color: white;
+  transition: 0.3s ease;
+}
+.submit-btn:hover {
+  color: white;
+}
+
+#subscribe-email {
+  height: 4rem;
+  width: 25rem;
+  margin-bottom: 1rem;
+  border-radius: 5rem;
+  color: white;
+  background: #efefef00;
+  border: 1px solid white;
+}
+#subscribe-email::placeholder {
+  color: white;
+}
+#subscribe-btn {
+  height: 4rem;
+  padding: 0rem 2rem;
+  border-radius: 5rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  color: #333;
+  background: #efefef;
+}
+/* ===================footer======================== */
+footer {
+  margin-top: 25rem;
+}
+footer ul {
+  color: #727272;
+}

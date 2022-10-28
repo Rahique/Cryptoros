@@ -1,0 +1,40 @@
+@media (max-width: 600px) {
+  #timer-text {
+    font-size: 0.5rem;
+  }
+}
+@media (max-width: 575px) {
+  .ico-progress-texts {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 991px) {
+  .market-cap-one {
+    transform: translateY(5%);
+  }
+  .roadmap-wrapper {
+    padding: 5rem 0rem;
+  }
+  .wallet-app-wrapper {
+    position: relative;
+    padding-bottom: 30rem;
+  }
+  .wallet-app-img {
+    position: absolute;
+    bottom: 0;
+  }
+  #subscribe-email {
+    height: 4rem;
+    width: 15rem;
+    margin-bottom: 1rem;
+    border-radius: 5rem;
+    color: white;
+    background: #efefef00;
+    border: 1px solid white;
+  }
+}
+@media (min-width: 991px) {
+  .small-screen-roadmap {
+    display: none;
+  }
+}
