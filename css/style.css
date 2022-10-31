@@ -391,12 +391,12 @@ html {
   cursor: pointer;
 }
 .carousel-indicators li {
-  height: 1rem;
-  width: 1rem;
-  border: 3px solid #7954ff;
-  border-radius: 50%;
-  background: #7954ff;
-  transform: translateY(4rem);
+    height: 1rem;
+    width: 1rem;
+    border: 3px solid #bda4ff;
+    border-radius: 50%;
+    background: #7954ff;
+    transform: translateY(4rem);
 }
 .adv-board-wrapper {
   padding: 10rem 0rem;
