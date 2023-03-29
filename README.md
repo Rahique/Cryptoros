@@ -1,2 +1,2 @@
 # CRYPTOROS
-# live link >>> https://rahique.github.io/CRYPTOROS/
+# live link >>> https://rahique.github.io/cryptoros/
